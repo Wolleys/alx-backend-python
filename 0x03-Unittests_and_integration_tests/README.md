@@ -40,10 +40,10 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 * All your functions and coroutines must be type-annotated.
 
 # Required Files
-`utils.py` (or [download](https://intranet-projects-files.s3.amazonaws.com/webstack/utils.py))
+### `utils.py` (or [download](https://intranet-projects-files.s3.amazonaws.com/webstack/utils.py))
 <details>
 <summary><b>Click to show/hide file contents</b></summary>
-```python
+
 #!/usr/bin/env python3
 """Generic utilities for github org client.
 """
@@ -119,13 +119,12 @@ def memoize(fn: Callable) -> Callable:
         return getattr(self, attr_name)
 
     return property(memoized)
-```
+
 </details>
 
-`client.py` (or [download](https://intranet-projects-files.s3.amazonaws.com/webstack/client.py))
+### `client.py` (or [download](https://intranet-projects-files.s3.amazonaws.com/webstack/client.py))
 <details>
 <summary><b>Click to show/hide file contents</b></summary>
-```python
 #!/usr/bin/env python3
 """A github org client
 """
@@ -184,14 +183,12 @@ class GithubOrgClient:
         except KeyError:
             return False
         return has_license
-```
 
 </details>
 
-`fixtures.py` (or [download](https://intranet-projects-files.s3.amazonaws.com/webstack/fixtures.py))
+### `fixtures.py` (or [download](https://intranet-projects-files.s3.amazonaws.com/webstack/fixtures.py))
 <details>
 <summary><b>Click to show/hide file contents</b></summary>
-```pyhton
 #!/usr/bin/env python3
 
 TEST_PAYLOAD = [
