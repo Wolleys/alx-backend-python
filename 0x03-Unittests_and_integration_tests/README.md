@@ -44,6 +44,7 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 <details>
 <summary><b>Click to show/hide file contents</b></summary>
 
+```python
 #!/usr/bin/env python3
 """Generic utilities for github org client.
 """
@@ -119,7 +120,7 @@ def memoize(fn: Callable) -> Callable:
         return getattr(self, attr_name)
 
     return property(memoized)
-
+```
 </details>
 
 ### `client.py` (or [download](https://intranet-projects-files.s3.amazonaws.com/webstack/client.py))
