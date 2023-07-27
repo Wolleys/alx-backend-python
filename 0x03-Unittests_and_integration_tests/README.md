@@ -127,7 +127,7 @@ def memoize(fn: Callable) -> Callable:
 <details>
 <summary><b>Click to show/hide file contents</b></summary>
 
-```pyhton
+```python
 #!/usr/bin/env python3
 """A github org client
 """
