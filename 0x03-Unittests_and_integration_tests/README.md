@@ -126,6 +126,8 @@ def memoize(fn: Callable) -> Callable:
 ### `client.py` (or [download](https://intranet-projects-files.s3.amazonaws.com/webstack/client.py))
 <details>
 <summary><b>Click to show/hide file contents</b></summary>
+
+```pyhton
 #!/usr/bin/env python3
 """A github org client
 """
@@ -184,7 +186,7 @@ class GithubOrgClient:
         except KeyError:
             return False
         return has_license
-
+```
 </details>
 
 ### `fixtures.py` (or [download](https://intranet-projects-files.s3.amazonaws.com/webstack/fixtures.py))
