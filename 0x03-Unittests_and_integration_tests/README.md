@@ -192,6 +192,8 @@ class GithubOrgClient:
 ### `fixtures.py` (or [download](https://intranet-projects-files.s3.amazonaws.com/webstack/fixtures.py))
 <details>
 <summary><b>Click to show/hide file contents</b></summary>
+
+```python
 #!/usr/bin/env python3
 
 TEST_PAYLOAD = [
@@ -1143,7 +1145,6 @@ TEST_PAYLOAD = [
   )
 ]
 ```
-
 </details>
 
 # Tasks
