@@ -10,7 +10,6 @@ from unittest.mock import patch, Mock
 
 class TestAccessNestedMap(unittest.TestCase):
     """_summary_
-
     Args:
         unittest (_type_): _description_
     """
@@ -44,9 +43,8 @@ class TestAccessNestedMap(unittest.TestCase):
 
 class TestGetJson(unittest.TestCase):
     """_summary_
-
     Args:
-                    unittest (_type_): _description_
+        unittest (_type_): _description_
     """
     @parameterized.expand(
         [
@@ -67,14 +65,12 @@ class TestGetJson(unittest.TestCase):
 
 class TestMemoize(unittest.TestCase):
     """_summary_
-
     Args:
-                    unittest (_type_): _description_
+        unittest (_type_): _description_
     """
 
     def test_memoize(self):
         """_summary_
-
         Returns:
                 _type_: _description_
         """
@@ -85,18 +81,16 @@ class TestMemoize(unittest.TestCase):
 
             def a_method(self):
                 """_summary_
-
                 Returns:
-                        _type_: _description_
+                    _type_: _description_
                 """
                 return 42
 
             @memoize
             def a_property(self):
                 """_summary_
-
                 Returns:
-                        _type_: _description_
+                    _type_: _description_
                 """
                 return self.a_method()
 
